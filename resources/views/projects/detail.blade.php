@@ -1,7 +1,6 @@
 <x-layout>
     <h2 class="text-2xl font-bold">Project details</h2>
     <div class="p-4">
-        {{ dump($project) }}
         <h3 class="text-xl font-bold">{{ $project->name }}</h3>
         <p>{{ $project->description }}</p>
         @if ($project->image != null || $project->image != '')
