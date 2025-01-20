@@ -1,0 +1,152 @@
+* {
+    transition: 0.3s;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.decoration-none {
+    text-decoration: none;
+}
+
+.scroll {
+    overflow: scroll;
+}
+
+.title {
+    text-align: center;
+    background-color: rgb(0, 128, 255);
+    padding: 10px;
+    color: white;
+    margin: 0;
+}
+
+.navbar {
+    background-color: rgb(204, 204, 204);
+    height: 100%;
+}
+
+.content {
+    padding-left: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px 10px 15px;
+    background: linear-gradient(to top, #0000 50%, rgb(0, 128, 255) 50%) bottom;
+    background-size: 100% 200%;
+    transition: 0.3s;
+    display: block;
+}
+
+.link:hover {
+    cursor: pointer;
+    background-position: top;
+    color: white;
+}
+
+.footer {
+    background-color: rgb(0, 128, 255);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.redbutton {
+    background-color: red;
+    color: white;
+    border: 3px dotted rgb(150, 0, 0);
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.redbutton:hover {
+    background-color: rgb(200, 0, 0);
+    font-weight: bold;
+}
+
+.gradientWhite {
+    background: linear-gradient(to right, #fff 70%, #0000 100%) left;
+    height: 75vh;
+}
+
+.bgimg {
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100%;
+}
+
+.imgjs {
+    background-image: url('/assets/img/js_icon.png');
+}
+
+.imghtml {
+    background-image: url('/assets/img/html_icon.png');
+}
+
+.imgcss {
+    background-image: url('/assets/img/css_icon.png');
+}
+
+.imgmobo {
+    background-image: url('/assets/img/PC mobo.jpg');
+}
+
+.imggpu {
+    background-image: url('/assets/img/GTX 970 backplate transparent.png');
+}
+
+.card {
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 350px;
+    border-radius: 15px;
+    margin: 10px;
+    transition: 0.15s;
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+.pccard {
+    background-image: url('/assets/img/PC.jpg');
+}
+
+.cardlink {
+    margin: 10px;
+    top: auto;
+    color: white;
+}
+
+.card:hover {
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.p-5 {
+    padding-top: 5px;
+}
+
+::-webkit-scrollbar {
+    display:none;
+}
